@@ -9,14 +9,13 @@ export default StyleSheet.create({
     bottom: 0,
     right: 0,
   },
-  modalBackground: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    bottom: 0,
-    right: 0,
-    opacity: 0.5,
-    backgroundColor: 'black',
+  modalContainer: {
+    alignSelf: 'center',
+    alignItems: 'center',
+    paddingVertical: '50rem',
+    paddingHorizontal: '50rem',
+    justifyContent: 'center',
+    height: height,
   },
   innerContainer: {
     backgroundColor: 'blue',
